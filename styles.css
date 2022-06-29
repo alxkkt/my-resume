@@ -227,7 +227,7 @@ body {
 .social-list__line {
   display: flex;
   align-content: flex-start;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 10px;
 
   color: white;
 }
@@ -235,7 +235,7 @@ body {
 .social-list-icon {
   display: block;
   margin-top: auto;
-  fill: #fb6d3a;
+  fill: #fff;
 }
 
 .skills-wrapper {
