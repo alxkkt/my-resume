@@ -187,12 +187,7 @@ body {
 .sidebar-section {
   background: #1e2939;
   width: 500px;
-  padding: 20px;
-}
-
-.contacts-section,
-.tech-skills-section {
-  margin: 20px 0 0 15px;
+  padding: 30px;
 }
 
 .sidebar-title {
@@ -205,6 +200,11 @@ body {
 }
 
 /* contacts section */
+
+.contacts-section {
+  display: grid;
+  place-items: center;
+}
 
 .contacts-section-type {
   font-style: normal;
@@ -226,10 +226,15 @@ body {
 .social-list {
   padding: 0;
   list-style: none;
+
+  display: grid;
+  place-items: center;
 }
+
 .social-list__item {
   display: flex;
 }
+
 .social-list__line {
   display: flex;
   align-content: flex-start;
@@ -246,6 +251,8 @@ body {
 
 .skills-wrapper {
   display: flex;
+
+  justify-content: space-between;
 }
 
 .profile-img {
@@ -298,7 +305,7 @@ body {
 /* soft skills section */
 
 .soft-skills-section {
-  margin: 10px 0 0 15px;
+  margin: 0;
 }
 .soft-skills-list {
   padding-left: 17px;
