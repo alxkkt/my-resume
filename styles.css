@@ -72,8 +72,13 @@ body {
 
 .tech-container {
   display: flex;
+  margin: 10px 0;
 
   justify-content: space-between;
+}
+
+.role-container {
+  margin: 10px 0;
 }
 
 .my-projects-list {
